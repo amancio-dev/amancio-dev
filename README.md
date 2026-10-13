@@ -22,7 +22,7 @@
 
   <br /><br />
 
-  <!-- Badges de Status e Contato (100% Shields.io) -->
+  <!-- Badges de Status e Contato (100% HTML img) -->
   <p>
     <img src="https://img.shields.io/badge/Status-Dispon%C3%ADvel_para_Est%C3%A1gio_%26_Projetos-2EA043?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0D1117" alt="Status" />
     <a href="mailto:andreamanciopowerwrite@gmail.com">
@@ -41,7 +41,10 @@
 
 </div>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="30" height="30" alt="Alien" /> Sobre Mim & Formação
+<h2>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="30" height="30" alt="Alien" />
+  Sobre Mim & Formação
+</h2>
 
 <table>
   <tr>
@@ -71,7 +74,10 @@ const dev = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neon Line" />
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="30" height="30" alt="Sparkles" /> Arsenal Tecnológico & Ferramentas
+<h2>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="30" height="30" alt="Sparkles" />
+  Arsenal Tecnológico & Ferramentas
+</h2>
 
 <div align="center">
 
@@ -94,26 +100,70 @@ const dev = {
 
 </div>
 
-| Camada | Tecnologias Principais | Nível Prático | O que já construo na prática |
-| :--- | :--- | :--- | :--- |
-| **Back-end** | [https://img.shields.io/badge/PHP_8.3-777BB4?style=flat-square&logo=php&logoColor=white] [https://img.shields.io/badge/Laravel_13-FF2D20?style=flat-square&logo=laravel&logoColor=white] | `██████████░░` **Avançado** | Arquitetura MVC, Eloquent ORM, autenticação multi-guard, prevenção de IDOR/CSRF |
-| **Front-end** | [https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black] [https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white] [https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white] | `█████████░░░` **Intermediário+** | Interfaces responsivas, templates Blade, dashboards e integração com Vite |
-| **Dados & SQL** | [https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white] [https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=postgresql&logoColor=white] | `█████████░░░` **Intermediário+** | Modelagem relacional, migrations, factories, seeders e queries otimizadas |
-| **Qualidade** | [https://img.shields.io/badge/PHPUnit-3C9CD7?style=flat-square&logo=php&logoColor=white] [https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white] [https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white] | `████████░░░░` **Intermediário** | Testes automatizados de feature/permissão, padronização com Pint/ESLint e deploy |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Camada</th>
+      <th align="left">Tecnologias Principais</th>
+      <th align="left">Nível Prático</th>
+      <th align="left">O que já construo na prática</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Back-end</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/PHP_8.3-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.3" />
+        <img src="https://img.shields.io/badge/Laravel_13-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel 13" />
+      </td>
+      <td><code>██████████░░</code><br /><b>Avançado</b></td>
+      <td>Arquitetura MVC, Eloquent ORM, autenticação multi-guard, prevenção de IDOR/CSRF</td>
+    </tr>
+    <tr>
+      <td><b>Front-end</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+      </td>
+      <td><code>█████████░░░</code><br /><b>Intermediário+</b></td>
+      <td>Interfaces responsivas, templates Blade, dashboards e integração com Vite</td>
+    </tr>
+    <tr>
+      <td><b>Dados & SQL</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+      </td>
+      <td><code>█████████░░░</code><br /><b>Intermediário+</b></td>
+      <td>Modelagem relacional, migrations, factories, seeders e queries otimizadas</td>
+    </tr>
+    <tr>
+      <td><b>Qualidade</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/PHPUnit-3C9CD7?style=flat-square&logo=php&logoColor=white" alt="PHPUnit" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
+      </td>
+      <td><code>████████░░░░</code><br /><b>Intermediário</b></td>
+      <td>Testes automatizados de feature/permissão, padronização com Pint/ESLint e deploy</td>
+    </tr>
+  </tbody>
+</table>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neon Line" />
 
-## 🚀 Projetos em Destaque (Portfólio Interativo)
+<h2>🚀 Projetos em Destaque (Portfólio Interativo)</h2>
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🎓 Projeto Aprendiz — Laravel 13</h3>
       <p>
-        <img src="https://img.shields.io/badge/Laravel_13-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
-        <img src="https://img.shields.io/badge/PHP_8.3-777BB4?style=flat-square&logo=php&logoColor=white" />
-        <img src="https://img.shields.io/badge/PHPUnit-Passing-2EA043?style=flat-square" />
-        <img src="https://img.shields.io/badge/Security-Hardened-0ea5e9?style=flat-square" />
+        <img src="https://img.shields.io/badge/Laravel_13-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel 13" />
+        <img src="https://img.shields.io/badge/PHP_8.3-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.3" />
+        <img src="https://img.shields.io/badge/PHPUnit-Passing-2EA043?style=flat-square" alt="PHPUnit" />
+        <img src="https://img.shields.io/badge/Security-Hardened-0ea5e9?style=flat-square" alt="Security" />
       </p>
       <p>Refatoração completa de um sistema legado em PHP procedural (~70 arquivos) para <b>Laravel 13 (MVC)</b>, gerenciando frequência e ponto de jovens aprendizes.</p>
       <details>
@@ -130,10 +180,10 @@ const dev = {
     <td width="50%" valign="top">
       <h3>🏥 Sistema Ficha Amputados</h3>
       <p>
-        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-        <img src="https://img.shields.io/badge/MVC-Full--Stack-0ea5e9?style=flat-square" />
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/MVC-Full--Stack-0ea5e9?style=flat-square" alt="MVC" />
       </p>
       <p>Aplicação web full-stack para registro estruturado, acompanhamento clínico e gestão de prontuários e fichas de pacientes.</p>
       <details>
@@ -151,19 +201,19 @@ const dev = {
     <td width="50%" valign="top">
       <h3>🏍️ Projeto Yamaha & Front-end Web</h3>
       <p>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
       </p>
       <p>Coleção de interfaces web responsivas e landing pages temáticas (incluindo <i>Projeto Yamaha</i>, <i>Agência de Viagens</i> e <i>Barbearia</i>) com foco em semântica HTML5, estilização moderna e interatividade.</p>
     </td>
     <td width="50%" valign="top">
       <h3>🗄️ Projetos SQL & Algoritmos</h3>
       <p>
-        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Modelagem_de_Dados-0ea5e9?style=flat-square" />
-        <img src="https://img.shields.io/badge/L%C3%B3gica-F59E0B?style=flat-square" />
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" />
+        <img src="https://img.shields.io/badge/Modelagem_de_Dados-0ea5e9?style=flat-square" alt="Modelagem" />
+        <img src="https://img.shields.io/badge/L%C3%B3gica-F59E0B?style=flat-square" alt="Lógica" />
       </p>
       <p>Repositório de scripts SQL, modelagem de bancos de dados relacionais e resolução de exercícios de lógica de programação e algoritmos desenvolvidos na formação técnica e superior.</p>
     </td>
@@ -172,7 +222,7 @@ const dev = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neon Line" />
 
-## 🔥 Atividade, Consistência & Contribuições
+<h2>🔥 Atividade, Consistência & Contribuições</h2>
 
 <div align="center">
 
@@ -190,7 +240,10 @@ const dev = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Neon Line" />
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Postbox.png" width="30" height="30" alt="Postbox" /> Vamos Conversar?
+<h2>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Postbox.png" width="30" height="30" alt="Postbox" />
+  Vamos Conversar?
+</h2>
 
 <div align="center">
 
