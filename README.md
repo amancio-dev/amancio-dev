@@ -1,32 +1,27 @@
-![André Amancio — Desenvolvimento Back-end e aplicações web](assets/banner.svg)
+# Olá, eu sou o André Amancio (Dedé) 👋
 
-## Olá, eu sou o André
+**Desenvolvedor Back-end em formação | Estudante de Sistemas para Internet (UNCISAL)**
 
-Desenvolvedor com foco em **PHP e Laravel**. Construo aplicações web para organizar processos, conectar informações e facilitar tarefas do dia a dia.
-
-Meus projetos exploram gestão de treinamentos, educação, registros clínicos e organização pessoal — da modelagem do banco de dados à interface.
-
-### Tecnologias presentes nos meus projetos
-
-**Back-end** · PHP · Laravel · APIs REST  
-**Dados** · MySQL · SQLite  
-**Interfaces** · JavaScript · Blade · React · TypeScript · Tailwind CSS  
-**Ferramentas** · Git · GitHub · Composer · Vite
-
-### Projetos em destaque
-
-| Projeto | O que você encontra |
-| :--- | :--- |
-| [**TrainOps**](https://github.com/amancio-dev/trainops) | Gestão de treinamentos, colaboradores e orçamento com Laravel, React e TypeScript. |
-| [**Projeto Aprendiz**](https://github.com/amancio-dev/projetoAprendiz-Laravel) | Gestão de aprendizes, empresas e presença, com diferentes perfis de acesso. |
-| [**Sistema Escolar**](https://github.com/amancio-dev/sistemaEscolar) | Organização de alunos, turmas, disciplinas, notas e frequência. |
-| [**MyBuy**](https://github.com/amancio-dev/MyBuy) | Controle de compras e orçamento com armazenamento local no navegador. |
-| [**Ficha de Amputados**](https://github.com/amancio-dev/fichaAmputados) | Cadastro e consulta de fichas clínicas com Laravel. |
-
-### Evolução dos projetos
-
-Também mantenho experiências de aprendizado e implementações anteriores. O [Projeto Aprendiz em PHP](https://github.com/amancio-dev/projetoaprendiz) e sua [versão em Laravel](https://github.com/amancio-dev/projetoAprendiz-Laravel) mostram essa evolução.
+Focado no desenvolvimento de aplicações web robustas, arquitetura de bancos de dados relacionais e APIs. Atualmente construindo projetos práticos com **PHP (Laravel)** e **Java**, além de atuar no **Projeto de Extensão Saúde Digital (UNCISAL)**.
 
 ---
 
-[Explore todos os repositórios públicos →](https://github.com/amancio-dev?tab=repositories&type=public)
+### 🛠️ Tecnologias e Ferramentas
+
+- **Back-end:** PHP, Laravel, Java (POO, Estruturas de Dados), PDO
+- **Banco de Dados:** MySQL, Modelagem de Dados, DBeaver
+- **Front-end & Mobile:** HTML5, CSS3, JavaScript, React Native (Expo)
+- **Ambiente & DevOps:** Linux (Zorin OS), Git & GitHub, IntelliJ IDEA, VS Code
+
+---
+
+### 🚀 Projetos em Destaque
+
+- 📌 **[TrainOps](https://github.com/dedezin751-lgtm/trainops):** Sistema voltado para gestão e operações de treinos, com foco em regras de negócio estruturadas e persistência de dados.
+- 📌 **[Projeto Aprendiz - Laravel](https://github.com/dedezin751-lgtm/projetoAprendiz-Laravel):** Aplicação web desenvolvida para consolidar arquitetura MVC, rotas, migrations e Eloquent ORM no ecossistema Laravel.
+
+---
+
+### 📫 Contato
+- **LinkedIn:** [Seu Link do LinkedIn aqui]
+- **E-mail:** [Seu E-mail profissional aqui]
