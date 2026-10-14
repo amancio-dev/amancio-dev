@@ -1,31 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">André Amancio — Desenvolvimento Back-end — PHP, Laravel e MySQL — Estágio e Jovem Aprendiz</title>
-  <desc id="desc">Identidade visual de André Amancio em azul escuro, ciano e violeta, com formas de circuitos.</desc>
+  <desc id="desc">Identidade visual de André Amancio em azul escuro, ciano e violeta, com formas de circuitos. Animações decorativas suaves nos circuitos, ilustrações e bordas; texto fixo. O movimento é desativado conforme a preferência de acessibilidade do sistema.</desc>
   <defs>
     <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#08111e"/><stop offset="1" stop-color="#10182b"/>
+      <stop offset="0" stop-color="#08111e" /><stop offset="1" stop-color="#10182b" />
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#64e9ff"/><stop offset="1" stop-color="#9583ff"/>
+      <stop offset="0" stop-color="#64e9ff" /><stop offset="1" stop-color="#9583ff" />
     </linearGradient>
-    <radialGradient id="halo"><stop stop-color="#64e9ff" stop-opacity=".13"/><stop offset="1" stop-color="#64e9ff" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#9eb2d2" stroke-opacity=".07" stroke-width="1"/></pattern>
-    </defs>
-  <rect width="1200" height="340" rx="22" fill="url(#base)"/>
-    <rect x=".5" y=".5" width="1199" height="339" rx="21.5" fill="none" stroke="#28344d"/>
-    <rect x="756" y="1" width="443" height="338" rx="21" fill="url(#grid)"/>
-    <ellipse cx="1040" cy="197.2" rx="330" ry="240" fill="url(#halo)"/>
-    <path d="M24 32V308" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-    <path d="M940 339H1176" stroke="#64e9ff" stroke-opacity=".28"/>
-    <path d="M778 54h46l24 24h62M757 283h50l26-26h72M1068 50h68v35M1114 282h33v-36" stroke="#6974ab" stroke-opacity=".45" stroke-width="1.5" fill="none"/>
-    <circle cx="910" cy="78" r="4" fill="#9b8cff"/><circle cx="905" cy="257" r="4" fill="#64e9ff"/>
-    <circle cx="1017" cy="175" r="105" fill="none" stroke="#64e9ff" stroke-opacity=".09"/>
-    <circle cx="1017" cy="175" r="81" fill="none" stroke="#9583ff" stroke-opacity=".16" stroke-dasharray="3 10"/>
-    <path d="m923 178 94-54 94 54-94 54-94-54Z" fill="#0c2032" stroke="url(#accent)" stroke-width="2"/>
-    <path d="m923 154 94-54 94 54-94 54-94-54Z" fill="#142139" stroke="url(#accent)" stroke-width="2"/>
-    <path d="m923 129 94-54 94 54-94 54-94-54Z" fill="#182942" stroke="url(#accent)" stroke-width="2"/>
-    <path d="m995 127-13 9 13 9m43-18 13 9-13 9m-18-23-9 27" fill="none" stroke="#e1faff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M938 210v31h46M1096 209v43h-42" stroke="#64e9ff" stroke-opacity=".55" stroke-width="1.5" fill="none"/>
-    <circle cx="984" cy="241" r="3" fill="#64e9ff"/><circle cx="1054" cy="252" r="3" fill="#9583ff"/>
-    <text x="75" y="46" fill="#8b9fb9" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.4">PORTFÓLIO DE DESENVOLVIMENTO</text><text x="1125" y="46" fill="#b2c2da" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">@amancio-dev</text><text x="72" y="129" fill="#f6f8ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">André Amancio</text><text x="76" y="184" fill="#c9d5e8" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400" letter-spacing="-.45">Desenvolvimento Back-end</text><rect x="76" y="212" width="34" height="2" rx="1" fill="url(#accent)"/><text x="122" y="223" fill="#6be8fb" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="600" >PHP · Laravel · MySQL</text><rect x="76" y="264" width="332" height="39" rx="19.5" fill="#172b3c" stroke="#3d7b88" stroke-opacity=".65"/><circle cx="99" cy="283.5" r="4.5" fill="#71dfd7"/><text x="114" y="290" fill="#d6f4f4" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" >Estágio e Jovem Aprendiz</text>
-</svg>
+    <radialGradient id="halo"><stop stop-color="#64e9ff" stop-opacity=".13" /><stop offset="1" stop-color="#64e9ff" stop-opacity="0" /></radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#9eb2d2" stroke-opacity=".07" stroke-width="1" /></pattern>
+    <filter id="soft-glow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="2.2" result="blur" in="SourceGraphic" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter><linearGradient id="shine-band" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#64e9ff" stop-opacity="0" /><stop offset=".45" stop-color="#64e9ff" stop-opacity=".04" /><stop offset=".5" stop-color="#d1f8ff" stop-opacity=".28" /><stop offset=".55" stop-color="#9583ff" stop-opacity=".07" /><stop offset="1" stop-color="#9583ff" stop-opacity="0" /></linearGradient><clipPath id="art-shine-clip" clipPathUnits="userSpaceOnUse"><rect x="915" y="75" width="206" height="162" rx="10" /></clipPath></defs>
+  <style type="text/css">/* Decorative motion only. Every text element remains static. */
+.float-art{animation:float-art 5.8s ease-in-out infinite;}
+.art-glow{animation:float-art 5.8s ease-in-out infinite,art-glow 5.8s ease-in-out infinite;}
+.ambient-halo{animation:ambient-halo 7.2s ease-in-out infinite;}
+.ring-glow{animation:ring-glow 6.4s ease-in-out infinite;}
+.orbit-flow{animation:orbit-flow 7.5s linear infinite;}
+.circuit-flow{animation:circuit-flow 4.4s linear infinite;}
+.edge-flow{animation:edge-flow 7.8s linear infinite;}
+.shine-sweep{animation:shine-sweep 7.4s ease-in-out infinite;}
+@keyframes float-art{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes art-glow{0%,100%{opacity:.18}50%{opacity:.45}}
+@keyframes ambient-halo{0%,100%{opacity:.58}50%{opacity:1}}
+@keyframes ring-glow{0%,100%{stroke-opacity:.1}50%{stroke-opacity:.26}}
+@keyframes orbit-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-104}}
+@keyframes circuit-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-146}}
+@keyframes edge-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-3032.81}}
+@keyframes shine-sweep{0%,12%{transform:translateX(0);opacity:0}25%{opacity:.65}65%{opacity:.65}88%,100%{transform:translateX(310px);opacity:0}}
+.route-one{animation:route-one 5.4s linear 0s infinite;}
+@keyframes route-one{0%{transform:translate(0px,0px);opacity:0}8%{transform:translate(12px,0px);opacity:.9}32%{transform:translate(46px,0px);opacity:.9}58%{transform:translate(70px,24px);opacity:.9}91%{transform:translate(119px,24px);opacity:.9}100%{transform:translate(132px,24px);opacity:0}}
+.route-two{animation:route-two 6.3s linear -2.8s infinite;}
+@keyframes route-two{0%{transform:translate(0px,0px);opacity:0}8%{transform:translate(13px,0px);opacity:.9}32%{transform:translate(50px,0px);opacity:.9}58%{transform:translate(76px,-26px);opacity:.9}91%{transform:translate(136px,-26px);opacity:.9}100%{transform:translate(148px,-26px);opacity:0}}
+
+@media (prefers-reduced-motion: reduce){
+  .motion{animation:none !important;transform:none !important;}
+  .travel-dot,.shine-sweep{display:none;}
+  .circuit-flow,.edge-flow{stroke-dasharray:none;opacity:.2;}
+  .art-glow{opacity:.18;}
+  .ambient-halo{opacity:1;}
+}
+</style><rect width="1200" height="340" rx="22" fill="url(#base)" />
+    <rect x=".5" y=".5" width="1199" height="339" rx="21.5" fill="none" stroke="#28344d" />
+    <rect x="756" y="1" width="443" height="338" rx="21" fill="url(#grid)" />
+    <ellipse cx="1040" cy="197.2" rx="330" ry="240" fill="url(#halo)" class="motion ambient-halo" />
+    <path d="M24 32V308" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" />
+    <path d="M940 339H1176" stroke="#64e9ff" stroke-opacity=".28" />
+    <path d="M778 54h46l24 24h62M757 283h50l26-26h72M1068 50h68v35M1114 282h33v-36" stroke="#6974ab" stroke-opacity=".45" stroke-width="1.5" fill="none" />
+    <circle cx="910" cy="78" r="4" fill="#9b8cff" /><circle cx="905" cy="257" r="4" fill="#64e9ff" />
+    <circle cx="1017" cy="175" r="105" fill="none" stroke="#64e9ff" stroke-opacity=".09" />
+    <circle cx="1017" cy="175" r="81" fill="none" stroke="#9583ff" stroke-opacity=".16" stroke-dasharray="3 10" class="motion orbit-flow" />
+    <g class="motion art-glow float-art" style="--float-height: 4px" filter="url(#soft-glow)" opacity=".28"><path d="m923 178 94-54 94 54-94 54-94-54Z" fill="#0c2032" stroke="url(#accent)" stroke-width="2" />
+    <path d="m923 154 94-54 94 54-94 54-94-54Z" fill="#142139" stroke="url(#accent)" stroke-width="2" />
+    <path d="m923 129 94-54 94 54-94 54-94-54Z" fill="#182942" stroke="url(#accent)" stroke-width="2" />
+    <path d="m995 127-13 9 13 9m43-18 13 9-13 9m-18-23-9 27" fill="none" stroke="#e1faff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g><g class="motion float-art" style="--float-height: 4px"><path d="m923 178 94-54 94 54-94 54-94-54Z" fill="#0c2032" stroke="url(#accent)" stroke-width="2" />
+    <path d="m923 154 94-54 94 54-94 54-94-54Z" fill="#142139" stroke="url(#accent)" stroke-width="2" />
+    <path d="m923 129 94-54 94 54-94 54-94-54Z" fill="#182942" stroke="url(#accent)" stroke-width="2" />
+    <path d="m995 127-13 9 13 9m43-18 13 9-13 9m-18-23-9 27" fill="none" stroke="#e1faff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g><path d="M938 210v31h46M1096 209v43h-42" stroke="#64e9ff" stroke-opacity=".55" stroke-width="1.5" fill="none" />
+    <circle cx="984" cy="241" r="3" fill="#64e9ff" /><circle cx="1054" cy="252" r="3" fill="#9583ff" />
+    <text x="75" y="46" fill="#8b9fb9" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.4">PORTFÓLIO DE DESENVOLVIMENTO</text><text x="1125" y="46" fill="#b2c2da" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">@amancio-dev</text><text x="72" y="129" fill="#f6f8ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">André Amancio</text><text x="76" y="184" fill="#c9d5e8" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400" letter-spacing="-.45">Desenvolvimento Back-end</text><rect x="76" y="212" width="34" height="2" rx="1" fill="url(#accent)" /><text x="122" y="223" fill="#6be8fb" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="600">PHP · Laravel · MySQL</text><rect x="76" y="264" width="332" height="39" rx="19.5" fill="#172b3c" stroke="#3d7b88" stroke-opacity=".65" /><circle cx="99" cy="283.5" r="4.5" fill="#71dfd7" /><text x="114" y="290" fill="#d6f4f4" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600">Estágio e Jovem Aprendiz</text>
+<path d="M778 54h46l24 24h62M757 283h50l26-26h72M1068 50h68v35M1114 282h33v-36" stroke="url(#accent)" stroke-opacity=".75" stroke-width="2" fill="none" class="motion circuit-flow" stroke-dasharray="15 58" filter="url(#soft-glow)" />
+    <circle cx="778" cy="54" r="3" fill="#cbfaff" opacity=".82" filter="url(#soft-glow)" class="motion travel-dot route-one" /><path d="M778 54h46l24 24h62M757 283h50l26-26h72M1068 50h68v35M1114 282h33v-36" stroke="url(#accent)" stroke-opacity=".75" stroke-width="2" fill="none" class="motion circuit-flow" stroke-dasharray="15 58" filter="url(#soft-glow)" />
+    <circle cx="757" cy="283" r="3" fill="#cbfaff" opacity=".82" filter="url(#soft-glow)" class="motion travel-dot route-two" /><g clip-path="url(#art-shine-clip)"><rect x="863" y="75" width="48" height="162" fill="url(#shine-band)" opacity="0" class="motion shine-sweep" /></g><rect x="1.5" y="1.5" width="1197" height="337" rx="20.5" fill="none" stroke="url(#accent)" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="160 2872.81" opacity=".55" class="motion edge-flow" /></svg>
