@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">André Amancio — Desenvolvimento Back-end — PHP, Laravel e MySQL — Estágio e Jovem Aprendiz</title>
+  <desc id="desc">Identidade visual de André Amancio em azul escuro, ciano e violeta, com formas de circuitos.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111e"/><stop offset="1" stop-color="#10182b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#64e9ff"/><stop offset="1" stop-color="#9583ff"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop stop-color="#64e9ff" stop-opacity=".13"/><stop offset="1" stop-color="#64e9ff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#9eb2d2" stroke-opacity=".07" stroke-width="1"/></pattern>
+    </defs>
+  <rect width="1200" height="340" rx="22" fill="url(#base)"/>
+    <rect x=".5" y=".5" width="1199" height="339" rx="21.5" fill="none" stroke="#28344d"/>
+    <rect x="756" y="1" width="443" height="338" rx="21" fill="url(#grid)"/>
+    <ellipse cx="1040" cy="197.2" rx="330" ry="240" fill="url(#halo)"/>
+    <path d="M24 32V308" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M940 339H1176" stroke="#64e9ff" stroke-opacity=".28"/>
+    <path d="M778 54h46l24 24h62M757 283h50l26-26h72M1068 50h68v35M1114 282h33v-36" stroke="#6974ab" stroke-opacity=".45" stroke-width="1.5" fill="none"/>
+    <circle cx="910" cy="78" r="4" fill="#9b8cff"/><circle cx="905" cy="257" r="4" fill="#64e9ff"/>
+    <circle cx="1017" cy="175" r="105" fill="none" stroke="#64e9ff" stroke-opacity=".09"/>
+    <circle cx="1017" cy="175" r="81" fill="none" stroke="#9583ff" stroke-opacity=".16" stroke-dasharray="3 10"/>
+    <path d="m923 178 94-54 94 54-94 54-94-54Z" fill="#0c2032" stroke="url(#accent)" stroke-width="2"/>
+    <path d="m923 154 94-54 94 54-94 54-94-54Z" fill="#142139" stroke="url(#accent)" stroke-width="2"/>
+    <path d="m923 129 94-54 94 54-94 54-94-54Z" fill="#182942" stroke="url(#accent)" stroke-width="2"/>
+    <path d="m995 127-13 9 13 9m43-18 13 9-13 9m-18-23-9 27" fill="none" stroke="#e1faff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M938 210v31h46M1096 209v43h-42" stroke="#64e9ff" stroke-opacity=".55" stroke-width="1.5" fill="none"/>
+    <circle cx="984" cy="241" r="3" fill="#64e9ff"/><circle cx="1054" cy="252" r="3" fill="#9583ff"/>
+    <text x="75" y="46" fill="#8b9fb9" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.4">PORTFÓLIO DE DESENVOLVIMENTO</text><text x="1125" y="46" fill="#b2c2da" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="end">@amancio-dev</text><text x="72" y="129" fill="#f6f8ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">André Amancio</text><text x="76" y="184" fill="#c9d5e8" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="400" letter-spacing="-.45">Desenvolvimento Back-end</text><rect x="76" y="212" width="34" height="2" rx="1" fill="url(#accent)"/><text x="122" y="223" fill="#6be8fb" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="600" >PHP · Laravel · MySQL</text><rect x="76" y="264" width="332" height="39" rx="19.5" fill="#172b3c" stroke="#3d7b88" stroke-opacity=".65"/><circle cx="99" cy="283.5" r="4.5" fill="#71dfd7"/><text x="114" y="290" fill="#d6f4f4" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" >Estágio e Jovem Aprendiz</text>
+</svg>
