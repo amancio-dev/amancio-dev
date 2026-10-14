@@ -1,5 +1,8 @@
 <div align="center">
-  <img src=".github/assets/profile-cover.svg" width="100%" alt="André Amancio — Desenvolvimento Back-end com PHP, Laravel e MySQL. Estágio e Jovem Aprendiz." />
+  <picture>
+    <source media="(max-width: 640px)" srcset=".github/assets/profile-cover-mobile.svg" />
+    <img src=".github/assets/profile-cover.svg" width="100%" alt="André Amancio — Desenvolvimento Back-end com PHP, Laravel e MySQL. Estágio e Jovem Aprendiz." />
+  </picture>
   <br /><br />
   <a href="https://www.linkedin.com/in/amancio-dev/"><img src=".github/assets/contact-linkedin.svg" width="165" alt="Conheça meu LinkedIn" /></a>
   &nbsp;
@@ -28,7 +31,10 @@ React, TypeScript, Inertia e Tailwind CSS também fazem parte do **TrainOps**.
 ## Projetos selecionados
 
 <a href="https://github.com/amancio-dev/trainops">
-  <img src=".github/assets/project-trainops.svg" width="100%" alt="01 — TrainOps: gestão de treinamentos e orçamento" />
+  <picture>
+    <source media="(max-width: 640px)" srcset=".github/assets/project-trainops-mobile.svg" />
+    <img src=".github/assets/project-trainops.svg" width="100%" alt="01 — TrainOps: gestão de treinamentos e orçamento" />
+  </picture>
 </a>
 
 **Laravel · React · TypeScript · MySQL**
@@ -40,7 +46,10 @@ Gestão de colaboradores, cursos, treinamentos e orçamento anual. Inclui autent
 <br />
 
 <a href="https://github.com/amancio-dev/projetoAprendiz-Laravel">
-  <img src=".github/assets/project-aprendiz.svg" width="100%" alt="02 — Projeto Aprendiz: gestão e controle de presença" />
+  <picture>
+    <source media="(max-width: 640px)" srcset=".github/assets/project-aprendiz-mobile.svg" />
+    <img src=".github/assets/project-aprendiz.svg" width="100%" alt="02 — Projeto Aprendiz: gestão e controle de presença" />
+  </picture>
 </a>
 
 **PHP · Laravel · MySQL · Blade · PHPUnit**
@@ -52,7 +61,10 @@ Modernização de um sistema em PHP para Laravel, com gestão de aprendizes, emp
 <br />
 
 <a href="https://github.com/amancio-dev/sistemaEscolar">
-  <img src=".github/assets/project-escolar.svg" width="100%" alt="03 — Sistema Escolar: matrículas, notas e frequência" />
+  <picture>
+    <source media="(max-width: 640px)" srcset=".github/assets/project-escolar-mobile.svg" />
+    <img src=".github/assets/project-escolar.svg" width="100%" alt="03 — Sistema Escolar: matrículas, notas e frequência" />
+  </picture>
 </a>
 
 **PHP · Laravel · MySQL · Blade · JavaScript**
