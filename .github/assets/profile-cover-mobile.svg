@@ -1,20 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
   <title id="title">André Amancio — Desenvolvimento Back-end — PHP, Laravel e MySQL — Estágio e Jovem Aprendiz</title>
-  <desc id="desc">Versão móvel da identidade visual de André Amancio, com texto ampliado e detalhes em ciano e violeta sobre azul escuro.</desc>
+  <desc id="desc">Versão móvel da identidade visual de André Amancio, com texto ampliado e detalhes em ciano e violeta sobre azul escuro. Animações decorativas suaves nos circuitos, ilustrações e bordas; texto fixo. O movimento é desativado conforme a preferência de acessibilidade do sistema.</desc>
   <defs>
-    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111e"/><stop offset="1" stop-color="#10182b"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#64e9ff"/><stop offset="1" stop-color="#9583ff"/></linearGradient>
-    <radialGradient id="halo"><stop stop-color="#64e9ff" stop-opacity=".09"/><stop offset="1" stop-color="#64e9ff" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9eb2d2" stroke-opacity=".045" stroke-width="1"/></pattern>
-  </defs>
-  <rect width="600" height="360" rx="22" fill="url(#base)"/>
-  <rect x=".5" y=".5" width="599" height="359" rx="21.5" fill="none" stroke="#28344d"/>
-  <rect x="348" y="1" width="251" height="358" rx="21" fill="url(#grid)"/>
-  <ellipse cx="550" cy="223.2" rx="210" ry="190" fill="url(#halo)"/>
-  <path d="M17 29V331" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-  <path d="m38 28-8 6 8 6m24-12 8 6-8 6m-13-15-5 19" stroke="url(#accent)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="561" y="39" fill="#b2c2da" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="end">@amancio-dev</text><text x="35" y="113" fill="#f6f8ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-1.3">André Amancio</text><text x="38" y="168" fill="#c9d5e8" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="400" letter-spacing="-.35">Desenvolvimento Back-end</text><text x="38" y="225" fill="#6be8fb" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="600" letter-spacing="-.15">PHP · Laravel · MySQL</text><rect x="38" y="268" width="408" height="51" rx="25.5" fill="#172b3c" stroke="#3d7b88" stroke-opacity=".65"/><circle cx="62" cy="293.5" r="5.5" fill="#71dfd7"/><text x="80" y="302" fill="#d6f4f4" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="600" >Estágio e Jovem Aprendiz</text><path d="m486 290 40-23 40 23-40 23-40-23Zm0-12 40-23 40 23-40 23-40-23Zm0-12 40-23 40 23-40 23-40-23Z" fill="#142139" stroke="url(#accent)" stroke-opacity=".62" stroke-width="1.3"/>
-    <path d="m518 262-5 4 5 4m16-8 5 4-5 4m-7-10-3 13" fill="none" stroke="#cff3fa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M480 328h58l16-16h27" stroke="#6974ab" stroke-opacity=".42" stroke-width="1.5" fill="none"/>
-    <circle cx="581" cy="312" r="3" fill="#9b8cff"/>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111e" /><stop offset="1" stop-color="#10182b" /></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#64e9ff" /><stop offset="1" stop-color="#9583ff" /></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#64e9ff" stop-opacity=".09" /><stop offset="1" stop-color="#64e9ff" stop-opacity="0" /></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9eb2d2" stroke-opacity=".045" stroke-width="1" /></pattern>
+  <filter id="soft-glow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="2.2" result="blur" in="SourceGraphic" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter><linearGradient id="shine-band" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#64e9ff" stop-opacity="0" /><stop offset=".45" stop-color="#64e9ff" stop-opacity=".04" /><stop offset=".5" stop-color="#d1f8ff" stop-opacity=".28" /><stop offset=".55" stop-color="#9583ff" stop-opacity=".07" /><stop offset="1" stop-color="#9583ff" stop-opacity="0" /></linearGradient><clipPath id="art-shine-clip" clipPathUnits="userSpaceOnUse"><rect x="482" y="241" width="91" height="78" rx="10" /></clipPath></defs>
+  <style type="text/css">/* Decorative motion only. Every text element remains static. */
+.float-art{animation:float-art 5.8s ease-in-out infinite;}
+.art-glow{animation:float-art 5.8s ease-in-out infinite,art-glow 5.8s ease-in-out infinite;}
+.ambient-halo{animation:ambient-halo 7.2s ease-in-out infinite;}
+.ring-glow{animation:ring-glow 6.4s ease-in-out infinite;}
+.orbit-flow{animation:orbit-flow 7.5s linear infinite;}
+.circuit-flow{animation:circuit-flow 4.4s linear infinite;}
+.edge-flow{animation:edge-flow 7.8s linear infinite;}
+.shine-sweep{animation:shine-sweep 7.4s ease-in-out infinite;}
+@keyframes float-art{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes art-glow{0%,100%{opacity:.18}50%{opacity:.45}}
+@keyframes ambient-halo{0%,100%{opacity:.58}50%{opacity:1}}
+@keyframes ring-glow{0%,100%{stroke-opacity:.1}50%{stroke-opacity:.26}}
+@keyframes orbit-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-104}}
+@keyframes circuit-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-146}}
+@keyframes edge-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-1872.81}}
+@keyframes shine-sweep{0%,12%{transform:translateX(0);opacity:0}25%{opacity:.65}65%{opacity:.65}88%,100%{transform:translateX(195px);opacity:0}}
+.route-one{animation:route-one 5.4s linear 0s infinite;}
+@keyframes route-one{0%{transform:translate(0px,0px);opacity:0}8%{transform:translate(10px,0px);opacity:.9}49%{transform:translate(58px,0px);opacity:.9}72%{transform:translate(74px,-16px);opacity:.9}91%{transform:translate(90px,-16px);opacity:.9}100%{transform:translate(101px,-16px);opacity:0}}
+
+@media (prefers-reduced-motion: reduce){
+  .motion{animation:none !important;transform:none !important;}
+  .travel-dot,.shine-sweep{display:none;}
+  .circuit-flow,.edge-flow{stroke-dasharray:none;opacity:.2;}
+  .art-glow{opacity:.18;}
+  .ambient-halo{opacity:1;}
+}
+</style><rect width="600" height="360" rx="22" fill="url(#base)" />
+  <rect x=".5" y=".5" width="599" height="359" rx="21.5" fill="none" stroke="#28344d" />
+  <rect x="348" y="1" width="251" height="358" rx="21" fill="url(#grid)" />
+  <ellipse cx="550" cy="223.2" rx="210" ry="190" fill="url(#halo)" class="motion ambient-halo" />
+  <path d="M17 29V331" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" />
+  <path d="m38 28-8 6 8 6m24-12 8 6-8 6m-13-15-5 19" stroke="url(#accent)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" /><text x="561" y="39" fill="#b2c2da" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="end">@amancio-dev</text><text x="35" y="113" fill="#f6f8ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-1.3">André Amancio</text><text x="38" y="168" fill="#c9d5e8" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="400" letter-spacing="-.35">Desenvolvimento Back-end</text><text x="38" y="225" fill="#6be8fb" font-family="DejaVu Sans, Arial, sans-serif" font-size="32" font-weight="600" letter-spacing="-.15">PHP · Laravel · MySQL</text><rect x="38" y="268" width="408" height="51" rx="25.5" fill="#172b3c" stroke="#3d7b88" stroke-opacity=".65" /><circle cx="62" cy="293.5" r="5.5" fill="#71dfd7" /><text x="80" y="302" fill="#d6f4f4" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="600">Estágio e Jovem Aprendiz</text><g class="motion art-glow float-art" style="--float-height: 3px" filter="url(#soft-glow)" opacity=".28"><path d="m486 290 40-23 40 23-40 23-40-23Zm0-12 40-23 40 23-40 23-40-23Zm0-12 40-23 40 23-40 23-40-23Z" fill="#142139" stroke="url(#accent)" stroke-opacity=".62" stroke-width="1.3" />
+    <path d="m518 262-5 4 5 4m16-8 5 4-5 4m-7-10-3 13" fill="none" stroke="#cff3fa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </g><g class="motion float-art" style="--float-height: 3px"><path d="m486 290 40-23 40 23-40 23-40-23Zm0-12 40-23 40 23-40 23-40-23Zm0-12 40-23 40 23-40 23-40-23Z" fill="#142139" stroke="url(#accent)" stroke-opacity=".62" stroke-width="1.3" />
+    <path d="m518 262-5 4 5 4m16-8 5 4-5 4m-7-10-3 13" fill="none" stroke="#cff3fa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </g><path d="M480 328h58l16-16h27" stroke="#6974ab" stroke-opacity=".42" stroke-width="1.5" fill="none" />
+    <circle cx="581" cy="312" r="3" fill="#9b8cff" />
     
-</svg>
+<path d="M480 328h58l16-16h27" stroke="url(#accent)" stroke-opacity=".75" stroke-width="2" fill="none" class="motion circuit-flow" stroke-dasharray="15 58" filter="url(#soft-glow)" />
+    <circle cx="480" cy="328" r="3" fill="#cbfaff" opacity=".82" filter="url(#soft-glow)" class="motion travel-dot route-one" /><g clip-path="url(#art-shine-clip)"><rect x="430" y="241" width="48" height="78" fill="url(#shine-band)" opacity="0" class="motion shine-sweep" /></g><rect x="1.5" y="1.5" width="597" height="357" rx="20.5" fill="none" stroke="url(#accent)" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="160 1712.81" opacity=".55" class="motion edge-flow" /></svg>
