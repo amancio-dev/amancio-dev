@@ -1,12 +1,12 @@
 <div align="center">
   <picture>
-    <source media="(max-width: 640px)" srcset=".github/assets/profile-cover-mobile.svg" />
-    <img src=".github/assets/profile-cover.svg" width="100%" alt="André Amancio — Desenvolvimento Back-end com PHP, Laravel e MySQL. Estágio e Jovem Aprendiz." />
+    <source media="(max-width: 640px)" srcset=".github/assets/profile-cover-mobile.svg?v=5ea8358916" />
+    <img src=".github/assets/profile-cover.svg?v=e462ac6bd4" width="100%" alt="André Amancio — Desenvolvimento Back-end com PHP, Laravel e MySQL. Estágio e Jovem Aprendiz." />
   </picture>
   <br /><br />
-  <a href="https://www.linkedin.com/in/amancio-dev/"><img src=".github/assets/contact-linkedin.svg" width="165" alt="Conheça meu LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/amancio-dev/"><img src=".github/assets/contact-linkedin.svg?v=55bed28925" width="165" alt="Conheça meu LinkedIn" /></a>
   &nbsp;
-  <a href="mailto:andreamancio0751@gmail.com"><img src=".github/assets/contact-email.svg" width="165" alt="Entre em contato por e-mail" /></a>
+  <a href="mailto:andreamancio0751@gmail.com"><img src=".github/assets/contact-email.svg?v=dff7d1f938" width="165" alt="Entre em contato por e-mail" /></a>
 </div>
 
 ## Back-end na prática
@@ -32,8 +32,8 @@ React, TypeScript, Inertia e Tailwind CSS também fazem parte do **TrainOps**.
 
 <a href="https://github.com/amancio-dev/trainops">
   <picture>
-    <source media="(max-width: 640px)" srcset=".github/assets/project-trainops-mobile.svg" />
-    <img src=".github/assets/project-trainops.svg" width="100%" alt="01 — TrainOps: gestão de treinamentos e orçamento" />
+    <source media="(max-width: 640px)" srcset=".github/assets/project-trainops-mobile.svg?v=dfb74298c2" />
+    <img src=".github/assets/project-trainops.svg?v=923ba5f3b0" width="100%" alt="01 — TrainOps: gestão de treinamentos e orçamento" />
   </picture>
 </a>
 
@@ -47,8 +47,8 @@ Gestão de colaboradores, cursos, treinamentos e orçamento anual. Inclui autent
 
 <a href="https://github.com/amancio-dev/projetoAprendiz-Laravel">
   <picture>
-    <source media="(max-width: 640px)" srcset=".github/assets/project-aprendiz-mobile.svg" />
-    <img src=".github/assets/project-aprendiz.svg" width="100%" alt="02 — Projeto Aprendiz: gestão e controle de presença" />
+    <source media="(max-width: 640px)" srcset=".github/assets/project-aprendiz-mobile.svg?v=9a890d4582" />
+    <img src=".github/assets/project-aprendiz.svg?v=b2aa67ce59" width="100%" alt="02 — Projeto Aprendiz: gestão e controle de presença" />
   </picture>
 </a>
 
@@ -62,8 +62,8 @@ Modernização de um sistema em PHP para Laravel, com gestão de aprendizes, emp
 
 <a href="https://github.com/amancio-dev/sistemaEscolar">
   <picture>
-    <source media="(max-width: 640px)" srcset=".github/assets/project-escolar-mobile.svg" />
-    <img src=".github/assets/project-escolar.svg" width="100%" alt="03 — Sistema Escolar: matrículas, notas e frequência" />
+    <source media="(max-width: 640px)" srcset=".github/assets/project-escolar-mobile.svg?v=0a36a69a3c" />
+    <img src=".github/assets/project-escolar.svg?v=a660fd56fe" width="100%" alt="03 — Sistema Escolar: matrículas, notas e frequência" />
   </picture>
 </a>
 
