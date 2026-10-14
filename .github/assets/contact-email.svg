@@ -1,16 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="190" height="50" viewBox="0 0 190 50" role="img" aria-labelledby="title desc">
   <title id="title">Contato por E-mail</title>
-  <desc id="desc">Identidade visual de André Amancio em azul escuro, ciano e violeta, com formas de circuitos.</desc>
+  <desc id="desc">Identidade visual de André Amancio em azul escuro, ciano e violeta, com formas de circuitos. Animações decorativas suaves nos circuitos, ilustrações e bordas; texto fixo. O movimento é desativado conforme a preferência de acessibilidade do sistema.</desc>
   <defs>
     <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#08111e"/><stop offset="1" stop-color="#10182b"/>
+      <stop offset="0" stop-color="#08111e" /><stop offset="1" stop-color="#10182b" />
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#64e9ff"/><stop offset="1" stop-color="#9583ff"/>
+      <stop offset="0" stop-color="#64e9ff" /><stop offset="1" stop-color="#9583ff" />
     </linearGradient>
-    <radialGradient id="halo"><stop stop-color="#64e9ff" stop-opacity=".13"/><stop offset="1" stop-color="#64e9ff" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#9eb2d2" stroke-opacity=".07" stroke-width="1"/></pattern>
-    </defs>
-  <rect x=".75" y=".75" width="188.5" height="48.5" rx="12" fill="#111d30" stroke="#425c7a" stroke-width="1.5"/>
-    <rect x=".75" y=".75" width="4" height="48.5" rx="2" fill="url(#accent)"/><rect x="22" y="15" width="27" height="20" rx="4" fill="none" stroke="#67ddec" stroke-width="1.8"/><path d="m23 17 12.5 10L48 17" fill="none" stroke="#67ddec" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="61" y="32" fill="#edf7ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="600" >E-mail</text>
-</svg>
+    <radialGradient id="halo"><stop stop-color="#64e9ff" stop-opacity=".13" /><stop offset="1" stop-color="#64e9ff" stop-opacity="0" /></radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#9eb2d2" stroke-opacity=".07" stroke-width="1" /></pattern>
+    <filter id="soft-glow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="2.2" result="blur" in="SourceGraphic" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter><linearGradient id="shine-band" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#64e9ff" stop-opacity="0" /><stop offset=".45" stop-color="#64e9ff" stop-opacity=".04" /><stop offset=".5" stop-color="#d1f8ff" stop-opacity=".28" /><stop offset=".55" stop-color="#9583ff" stop-opacity=".07" /><stop offset="1" stop-color="#9583ff" stop-opacity="0" /></linearGradient><clipPath id="art-shine-clip" clipPathUnits="userSpaceOnUse"><rect x="17" y="10" width="36" height="30" rx="10" /></clipPath></defs>
+  <style type="text/css">/* Decorative motion only. Every text element remains static. */
+.float-art{animation:float-art 5.8s ease-in-out infinite;}
+.art-glow{animation:float-art 5.8s ease-in-out infinite,art-glow 5.8s ease-in-out infinite;}
+.ambient-halo{animation:ambient-halo 7.2s ease-in-out infinite;}
+.ring-glow{animation:ring-glow 6.4s ease-in-out infinite;}
+.orbit-flow{animation:orbit-flow 7.5s linear infinite;}
+.circuit-flow{animation:circuit-flow 4.4s linear infinite;}
+.edge-flow{animation:edge-flow 7.8s linear infinite;}
+.shine-sweep{animation:shine-sweep 7.4s ease-in-out infinite;}
+@keyframes float-art{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}
+@keyframes art-glow{0%,100%{opacity:.18}50%{opacity:.45}}
+@keyframes ambient-halo{0%,100%{opacity:.58}50%{opacity:1}}
+@keyframes ring-glow{0%,100%{stroke-opacity:.1}50%{stroke-opacity:.26}}
+@keyframes orbit-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-104}}
+@keyframes circuit-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-146}}
+@keyframes edge-flow{from{stroke-dashoffset:0}to{stroke-dashoffset:-449.12}}
+@keyframes shine-sweep{0%,12%{transform:translateX(0);opacity:0}25%{opacity:.65}65%{opacity:.65}88%,100%{transform:translateX(140px);opacity:0}}
+
+@media (prefers-reduced-motion: reduce){
+  .motion{animation:none !important;transform:none !important;}
+  .travel-dot,.shine-sweep{display:none;}
+  .circuit-flow,.edge-flow{stroke-dasharray:none;opacity:.2;}
+  .art-glow{opacity:.18;}
+  .ambient-halo{opacity:1;}
+}
+</style><rect x=".75" y=".75" width="188.5" height="48.5" rx="12" fill="#111d30" stroke="#425c7a" stroke-width="1.5" />
+    <rect x=".75" y=".75" width="4" height="48.5" rx="2" fill="url(#accent)" /><g class="motion art-glow float-art" style="--float-height: 1.5px" filter="url(#soft-glow)" opacity=".28"><rect x="22" y="15" width="27" height="20" rx="4" fill="none" stroke="#67ddec" stroke-width="1.8" /><path d="m23 17 12.5 10L48 17" fill="none" stroke="#67ddec" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></g><g class="motion float-art" style="--float-height: 1.5px"><rect x="22" y="15" width="27" height="20" rx="4" fill="none" stroke="#67ddec" stroke-width="1.8" /><path d="m23 17 12.5 10L48 17" fill="none" stroke="#67ddec" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></g><text x="61" y="32" fill="#edf7ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="600">E-mail</text>
+<g clip-path="url(#art-shine-clip)"><rect x="-35" y="10" width="48" height="30" fill="url(#shine-band)" opacity="0" class="motion shine-sweep" /></g><rect x="1.5" y="1.5" width="187" height="47" rx="11" fill="none" stroke="url(#accent)" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="53.89 395.23" opacity=".55" class="motion edge-flow" /></svg>
